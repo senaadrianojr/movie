@@ -41,7 +41,6 @@ File uploaded successfully. Wait a moment for the data to be saved
 {
 	"min": [
 		{
-			"producerId": 112,
 			"producer": "Joel Silver",
 			"previousWin": 1990,
 			"followingWin": 1991,
@@ -50,7 +49,6 @@ File uploaded successfully. Wait a moment for the data to be saved
 	],
 	"max": [
 		{
-			"producerId": 268,
 			"producer": "Matthew Vaughn",
 			"previousWin": 2002,
 			"followingWin": 2015,
