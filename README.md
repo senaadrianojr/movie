@@ -1,4 +1,5 @@
 # Movie List Upload
+
 Spring boot application
 Upload csv file with movie data
 
@@ -32,7 +33,8 @@ Http status 200
 File uploaded successfully. Wait a moment for the data to be saved
 ```
 ### Get winning movies report
- Return result of the winning movies.
+
+Get the producer with the longest interval between two consecutive awards and the one that got two awards faster.
  
  - Path: {host}/movies/producers/report
  - Method: GET
@@ -41,6 +43,7 @@ File uploaded successfully. Wait a moment for the data to be saved
 {
 	"min": [
 		{
+			"producerId": 112,
 			"producer": "Joel Silver",
 			"previousWin": 1990,
 			"followingWin": 1991,
@@ -49,6 +52,7 @@ File uploaded successfully. Wait a moment for the data to be saved
 	],
 	"max": [
 		{
+			"producerId": 268,
 			"producer": "Matthew Vaughn",
 			"previousWin": 2002,
 			"followingWin": 2015,
